@@ -204,10 +204,10 @@ label {
 
 /* ===== LAYOUT STYLES ====== */
 :root {
-  --grey: #6C686A;
-  --light-grey: #D9D0D0;
+  --dark-grey: #464141;
+  --light-grey: #9B9B9B;
   --white: #FFFFFF;
-  --black: #1F0C16;
+  --black: #2A2323;
 }
 
 body {

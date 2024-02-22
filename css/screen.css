@@ -211,16 +211,16 @@ label {
 }
 
 body {
-  font-family: "Anton",serif, sans-serif;
-  background-color: var(--black);
-  color: var(--white);
+  font-family: "Oswald",serif, sans-serif;
+  background-color: var(--grey);
+  color: var(--black);
   padding: 3em;
 }
 
 form {
   max-width: 400px;
   margin: 0 auto;
-  background-color: var(--white);
+  background-color: var(--light-grey);
   padding: 2em;
   border-radius: 10px;
 }

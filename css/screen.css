@@ -203,6 +203,73 @@ label {
 }
 
 /* ===== LAYOUT STYLES ====== */
+:root {
+  --grey: #6C686A;
+  --light-grey: #D9D0D0;
+  --white: #FFFFFF;
+  --black: #1F0C16;
+}
+
+body {
+  font-family: "Anton",serif, sans-serif;
+  background-color: var(--black);
+  color: var(--white);
+  padding: 3em;
+}
+
+form {
+  max-width: 400px;
+  margin: 0 auto;
+  background-color: var(--white);
+  padding: 2em;
+  border-radius: 10px;
+}
+
+h1 {
+  font-family: "Anton", sans-serif;
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+p {
+  text-align: center;
+  color: var(--grey);
+}
+
+input[type="email"],
+label[for="email"],
+input[type="checkbox"],
+label[for="age-verification"],
+input[type="submit"] {
+  width: 100%;
+  margin-bottom: 1em;
+}
+
+input[type="email"],
+input[type="checkbox"],
+input[type="submit"] {
+  padding: 1em;
+  border: none;
+  background-color: var(--light-grey);
+}
+
+label[for="email"],
+label[for="age-verification"] {
+  font-family: "Bebas Neue", sans-serif;
+}
+
+input[type="submit"] {
+  background-color: var(--grey);
+  color: var(--white);
+}
+
+/* Responsive Media */
+img, audio, video {
+  display: block;
+  max-width: 100%;
+}
+
+
 
 
 /* ===== STATE STYLES ======= */
